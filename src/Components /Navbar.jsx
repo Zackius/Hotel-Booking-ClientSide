@@ -35,7 +35,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false)
 
   return (
-      <AppBar position='sticky'>
+      <AppBar position="sticky">
       <StyledToolbar>
         <Typography variant="6" sx={{size: "20px"}}>Hotel Booking</Typography>
         <Search> <InputBase placeholder='Search .....'></InputBase>

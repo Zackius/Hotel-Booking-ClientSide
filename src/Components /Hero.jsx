@@ -1,8 +1,33 @@
+import styled from '@emotion/styled'
+import { CssBaseline, Typography } from '@mui/material'
+import { Box, Container } from '@mui/system'
 import React from 'react'
 
+
+const StyledHero = styled(Container)({
+    backgroundColor: "gray",
+})
 const Hero = () => {
   return (
-    <div>Hero</div>
+      <React.Fragment>
+                <CssBaseline />
+
+          <Container maxWidth="xlg" sx={{m: '2', bgcolor: "gray"}}>
+              <Box sx={{  display: "flex", height: '70vh' }}>
+                  <Box>
+                      <Typography>
+                          Welcome to Hotel Booking
+                      </Typography>
+                      <Typography>
+                          The Best 
+                      </Typography>
+                  </Box>
+                  <Box>
+                    <img src=""/>
+                  </Box>
+        </Box>
+      </Container>   
+</React.Fragment>
   )
 }
 

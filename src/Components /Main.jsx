@@ -6,10 +6,10 @@ const Main = () => {
   return (
     <React.Fragment>
     <CssBaseline />
-      <Container sx={{ bgcolor: '#cfe8fc', height: 'auto', padding: "20px" }}>
+      <Container maxWidth="xlg" sx={{ bgcolor: '#cfe8fc', height: 'auto', padding: "20px" }}>
       <Typography sx={{textAlign: "center"}} >
             Top Rated Hotels  in your Areas
-</Typography>
+        </Typography>
         <Box >
           <Hotels/>
       </Box>
