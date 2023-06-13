@@ -12,8 +12,8 @@ const Hero = () => {
       <React.Fragment>
                 <CssBaseline />
 
-          <Container maxWidth="xlg" sx={{m: '2', bgcolor: "gray"}}>
-              <Box sx={{  display: "flex", height: '70vh' }}>
+          <Container maxWidth="xlg" sx={{m: '2', display: "flex", justifyContent: "center",  bgcolor: "gray"}}>
+              <Box sx={{  display: "flex", textAlign: "center",  height: '70vh' }}>
                   <Box>
                       <Typography>
                           Welcome to Hotel Booking

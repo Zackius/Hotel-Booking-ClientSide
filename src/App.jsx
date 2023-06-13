@@ -1,14 +1,20 @@
-
+import {Container } from '@mui/system'
 import Navbar from "./Components /Navbar"
 import Main from "./Components /Main"
 import Hero from "./Components /Hero"
+import { ThemeProvider } from '@emotion/react'
+import Appbar from "./Components /AppBar"
+import theme from "./styles/theme"
 function App() {
   return (
-    <div >
-      <Navbar />
+    <ThemeProvider theme={theme}>
+      <Container maxWidth="xl" sx={{ background: "#fff" }}>
+        <Appbar/>
+      {/* <Navbar />
       <Hero/>
-      <Main/>
-    </div>
+      <Main/> */}
+      </Container>
+    </ThemeProvider>
   )
 }
 
