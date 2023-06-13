@@ -1,11 +1,14 @@
 
-
+import Navbar from "./Components /Navbar"
+import Header from "./Components /Header"
+import Main from "./Components /Main"
 function App() {
 
 
   return (
     <div >
-      <h1>Hello VITES</h1>
+      <Navbar/>
+      <Main/>
     </div>
   )
 }
