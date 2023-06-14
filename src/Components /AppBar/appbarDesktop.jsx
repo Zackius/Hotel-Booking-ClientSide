@@ -1,13 +1,26 @@
-import { useTheme } from '@emotion/react'
-import { useMediaQuery } from '@mui/material'
-import React from 'react'
 
-const appbarDesktop= ()=>{
-const theme = useTheme()
-const matches = useMediaQuery(theme.breakpoints.down('md'))
+import { ListItemText } from '@mui/material'
+import React from 'react'
+import { AppbarContainer, AppbarHeader, MyList } from '../../styles/appbar'
+
+const AppbarDesktop= ({matches})=>{
+
   return (
-      <div>{matches ? <h1>Mobile</h1>  : <h1>Desktop</h1>}</div>
+    <React.Fragment>
+          <AppbarContainer>
+      <AppbarHeader>
+  Hotel Booking 
+        </AppbarHeader>
+        <MyList type='row'>
+          <ListItemText primary="Home" />
+          <ListItemText primary="Trending Hotels" />
+          <ListItemText primary="Popular Destination" />
+          <ListItemText primary="About " />
+          <ListItemText primary="Contact Us" />
+        </MyList>
+     </AppbarContainer>
+</React.Fragment>
   )
 }
 
-export default appbarDesktop
+export default AppbarDesktop

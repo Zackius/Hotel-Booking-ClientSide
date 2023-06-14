@@ -1,13 +1,13 @@
-import { useTheme } from '@emotion/react'
-import { useMediaQuery } from '@mui/material'
+
 import React from 'react'
 
-const appbarMobile = () => {
-    const theme = useTheme()
-    const matches =useMediaQuery(theme.breakpoints.down('md'))
+const AppbarMobile = ({matches}) => {
+
   return (
-    <div>appbarMobile</div>
+    <div>
+      <h1>Mobile</h1> 
+    </div>
   )
 }
 
-export default appbarMobile
+export default AppbarMobile

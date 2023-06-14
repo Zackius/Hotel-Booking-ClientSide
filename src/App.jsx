@@ -2,7 +2,7 @@ import {Container } from '@mui/system'
 import Navbar from "./Components /Navbar"
 import Main from "./Components /Main"
 import Hero from "./Components /Hero"
-import { ThemeProvider } from '@emotion/react'
+import { ThemeProvider } from '@mui/material/styles'
 import Appbar from "./Components /AppBar"
 import theme from "./styles/theme"
 function App() {
