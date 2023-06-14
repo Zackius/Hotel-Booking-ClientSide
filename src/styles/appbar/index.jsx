@@ -13,7 +13,8 @@ export const AppbarContainer = styled(Box)(() => ({
     marginTop: 4,
     justifyContent: 'center', 
     alignItem: 'center',
-    padding: '2px 8px'
+    padding: '2px 8px',
+
        
 }))
    
@@ -27,8 +28,23 @@ export const AppbarHeader = styled(Typography)(() => ({
 }))
 export const MyList = styled(List)(({type}) => ({
     display: type === 'row' ? 'flex' : 'block',
-    flexGrow: 3,
+    flexGrow: 2,
     justifyContent: 'center',
     alignContent: 'center'
 
+}))
+
+export const ActionIconContainerMobile = styled(Box)(() => ({
+    display: 'flex', 
+    background: Colors.shaft,
+    position: 'fixed', 
+    bottom: 0,
+    left: 0, 
+    width: '100%',
+    alignItems: 'center', 
+    zIndex: 99,
+    borderTop: `1px solid ${Colors.border}`
+}))
+export const ActionIconContainerDesktop = styled(Box)(() => ({
+    flexGrow: 0
 }))
