@@ -12,7 +12,7 @@ const AppbarDesktop = ({ matches }) => {
   return (
     <React.Fragment>
           <AppbarContainer>
-      <AppbarHeader>
+      <AppbarHeader variant="h4">
   Hotel Booking 
         </AppbarHeader>
         <MyList type='row'>
