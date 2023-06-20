@@ -1,4 +1,6 @@
-import React from 'react'
+import { Box } from '@mui/system'
+import React, {useState } from 'react'
+import { PromotionContainer, MessageText } from '../../styles/promotions'
 
 
 const messages = [
@@ -7,8 +9,14 @@ const messages = [
 ]
 
 const Promotions = () => {
+    const [messageIndex, setMessageIndex] = useState(0)
   return (
-    <div>Promotions</div>
+      <PromotionContainer>
+          <Box display={"flex"} justifyContent="center" alignItems={"center"} />
+          <MessageText>
+              {messages[messageIndex]}
+          </MessageText>
+     </PromotionContainer>
   )
 }
 
