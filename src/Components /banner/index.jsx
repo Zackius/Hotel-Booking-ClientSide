@@ -11,12 +11,12 @@ const Banner = () => {
     <BannerContainer>
       <BannerImge src="/images/accra.jpg"/>
       <BannerContent>
-        <Typography>Bnanner</Typography>
+        <Typography>Hotel</Typography>
         <BannerTittle variant= "h2">
-          Hotels
+      Booking
         </BannerTittle>
         <BannerDescription variant="subtitle">
-          lorem ipdsum dollar sit amet cosnsecutre adisping eliting do eiusmo tempor incidentfjdj lasd 
+        Welcome to our premier hotel booking website, your gateway to finding the perfect accommodations for your travel needs. With our user-friendly interface and comprehensive search options, we make it easy for you to discover and book the ideal hotel that suits your preferences and budget.
         </BannerDescription>
  </BannerContent>
     </BannerContainer>
