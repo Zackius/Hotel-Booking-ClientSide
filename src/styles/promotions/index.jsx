@@ -10,6 +10,8 @@ export const PromotionContainer = styled(Box)(({theme}) => ({
         padding: '40px 0px 40px 0px'
     },
     display: 'flex', 
+    margin: '20px',
+    borderRadius: '16px', 
     justifyContent: 'center', 
     alignItems: 'center',
     padding: "20px 0px 20px 0px", 

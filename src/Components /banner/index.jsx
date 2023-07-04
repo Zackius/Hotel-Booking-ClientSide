@@ -1,6 +1,5 @@
 import { useTheme } from "@emotion/react";
 import { Typography, useMediaQuery } from "@mui/material";
-import accra from "./"
 import React from "react";
 import { BannerContainer , BannerContent, BannerDescription, BannerImge, BannerTittle} from "../../styles/banner";
 
