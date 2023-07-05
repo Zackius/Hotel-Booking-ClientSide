@@ -1,4 +1,4 @@
-import { IconButton } from "@mui/material";
+import { Button, IconButton } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import { Box } from "@mui/system";
 import {Colors} from "../theme"
@@ -13,7 +13,7 @@ export const Product = styled(Box)(({theme}) => ({
         position: "relative"
     }
 }))
-export const ProductImage = styled('img')(({ scr, theme }) => ({
+export const ProductImage = styled('img')(({ src, theme }) => ({
     src: `url(${src})`, 
     width: '100%', 
     background: Colors.light_gray, 

@@ -7,7 +7,7 @@ export const products = [
     address: "123 Main Street",
     distance: "2.5 miles",
     photo:
-      "https://img.freepik.com/free-photo/beautiful-luxury-outdoor-swimming-pool-hotel-resort_74190-7433.jpg",
+      "https://plus.unsplash.com/premium_photo-1678286771657-cf22aa97faf0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
     title: "Experience ultimate luxury at Grand Plaza Hotel",
     description:
       " Indulge in opulent accommodations and world-class amenities at our luxurious hotel in the heart of New York city.",
@@ -51,7 +51,7 @@ export const products = [
     address: " 10 Piccadilly Circus",
     distance: " 0.3 miles",
     photo:
-      "https://thehoughtonhotel.com/wp-content/uploads/2023/02/Houghton-Hotel-3-20-scaled.jpg",
+      "https://gulfbusiness.com/wp-content/uploads/2023/01/Dubai-Hotels-occupancy-rises-in-December-2022-E1BAv5VXsAAFIJl.jpg",
     title: "Discover the vibrant city at city Lights Hotel",
     description:
       " Immerse yourself in the energy of London's bustling streets, explore iconic landmarks, and experience the vibrant nightlife from our urban hotel.",
