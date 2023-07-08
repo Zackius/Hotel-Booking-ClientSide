@@ -7,7 +7,5 @@ import { Box } from "@mui/system";
 
 export const ProductContainer = styled( Box)(({theme})=>({
 display : 'flex', 
-justifyContent: 'center',
-alignItems: 'center', 
-padding
+flexDirection: "row"
 }))

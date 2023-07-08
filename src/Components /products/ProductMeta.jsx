@@ -5,13 +5,13 @@ import { Typography } from '@mui/material'
 const ProductMeta = ({products, matches}) => {
   return (
       <ProductMetaWrapper>
-          <Typography variant={matches ? 'h6' : 'h5'} lineHeight={2}>
+          <Typography variant={matches ? 'h5' : 'h6'} lineHeight={2}>
               {products.name}
           </Typography>
-          <Typography variant={matches ? 'h6' : 'h5'} lineHeight={2}>
+          <Typography variant={matches ? 'p' : 'p'} lineHeight={2}>
               {products.type}
           </Typography>
-          <Typography variant={matches ? 'h6' : 'h5'} lineHeight={2}>
+          <Typography variant={matches ? 'p' : 'p'} lineHeight={2}>
               {products.city}
           </Typography>
    </ProductMetaWrapper>

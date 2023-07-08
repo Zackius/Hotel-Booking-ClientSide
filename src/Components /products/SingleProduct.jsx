@@ -5,7 +5,7 @@ import ProductMeta from "./ProductMeta";
 const SingleProduct = ({ products, matches }) => {
   return (
     <Product>
-      <ProductImage src={products.image} />
+      <ProductImage src={products.photo} />
       <ProductMeta products={products} matches={matches} />
     </Product>
   );

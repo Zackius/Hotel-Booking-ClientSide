@@ -45,13 +45,13 @@ export const products = [
 
   {
     id: 4,
-    name: "city Lights Hotel",
+    name: "City Lights Hotel",
     type: "Urban",
     city: "London",
     address: " 10 Piccadilly Circus",
     distance: " 0.3 miles",
     photo:
-      "https://gulfbusiness.com/wp-content/uploads/2023/01/Dubai-Hotels-occupancy-rises-in-December-2022-E1BAv5VXsAAFIJl.jpg",
+      "https://images.pexels.com/photos/1838554/pexels-photo-1838554.jpeg?auto=compress&cs=tinysrgb&w=1600",
     title: "Discover the vibrant city at city Lights Hotel",
     description:
       " Immerse yourself in the energy of London's bustling streets, explore iconic landmarks, and experience the vibrant nightlife from our urban hotel.",
@@ -95,7 +95,7 @@ export const products = [
     address: "777 Heritage Lane",
     distance: "0.2 miles",
     photo:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmJC6gBrZ9t0B__H-xk5jt5TILbFq6WLyvDrH8AekEhuIuN2UMP52FBWvTSGrFUv4Oceo&usqp=CAU",
+      "https://hotelbellwether.com/wp-content/uploads/2021/09/Bellwether-Hotel-Lifestyle-Photos-Web-Ready-0834.jpg",
     title: "Step back in time at Historic Mansion Inn",
     description:
       "Immerse yourself in the charm of a bygone era, experience southern hospitality, and admire the architectural beauty of our boutique hotel in Charleston.",
