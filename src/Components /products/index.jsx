@@ -1,4 +1,4 @@
-import { Container, Grid, useMediaQuery } from '@mui/material'
+import { Box, Container, Grid, useMediaQuery } from '@mui/material'
 import React from 'react'
 import { useTheme } from '@emotion/react'
 import { products } from "../../data"
@@ -11,17 +11,13 @@ const Products = () => {
     const matches = useMediaQuery(theme.breakpoints.down('md'))
     
     const renderProducts = products.map(product => (
-        <Grid item key ={product.id} display= "flex" flexDirection="rows" >
+        <Box item key ={product.id} display= "flex" flexDirection="rows" >
             <SingleProduct products={product} matches={matches}/>
-        </Grid>
+        </Box>
     ) )
   return (
-      <Container>
-          <Grid
-              container spacing={2}
-              sx={{ margin: '20px 4px 10px 4px' }}>
+      <Container      container spacing={2}>
               {renderProducts}
-          </Grid>
       </Container>
   )
 }
