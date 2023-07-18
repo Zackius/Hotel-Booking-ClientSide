@@ -11,9 +11,9 @@ const Products = () => {
     const matches = useMediaQuery(theme.breakpoints.down('md'))
     
     const renderProducts = products.map(product => (
-        <Box item key ={product.id} display= "flex" flexDirection="rows" >
+        <Grid item key={product.id} xs={2 } sm={2} md={4} display= "flex" flexDirection="columns" alignItems="center" >
             <SingleProduct products={product} matches={matches}/>
-        </Box>
+        </Grid>
     ) )
   return (
       <Container      container spacing={2}>
