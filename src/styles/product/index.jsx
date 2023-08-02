@@ -55,7 +55,7 @@ export const ProductMetaWrapper = styled(Box)(({ }) => ({
 }))
 export const ProductActionWrapper = styled(Box)(({show, theme }) => ({
     [theme.breakpoints.up("md")]: {
-        display: show ? "visible" : "none", 
+        display: show ? "visible" : "none",                                             
         position: 'absolute', 
         right: 0, 
         top: "20%", 

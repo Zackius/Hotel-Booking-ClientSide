@@ -1,4 +1,4 @@
-import { Box, Container, Grid, useMediaQuery } from '@mui/material'
+import {Container, Grid, useMediaQuery } from '@mui/material'
 import React from 'react'
 import { useTheme } from '@emotion/react'
 import { products } from "../../data"
